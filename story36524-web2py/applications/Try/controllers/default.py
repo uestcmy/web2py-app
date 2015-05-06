@@ -21,6 +21,9 @@ def index():
 
 
 def first():
+    if request.vars.visitor_name:
+        session.visitor_name = request.vars.visitor_name
+        redirect(URL('second'))
     return dict()
 
 def second():

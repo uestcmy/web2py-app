@@ -1,0 +1,160 @@
+body {
+  background-image: url(../images/background.jpg);
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+p {
+  margin: 0;
+}
+
+.row {
+  margin: 0;
+}
+
+.articles {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.article {
+  color: #222;
+  background: rgba(255,255,255,.9);
+  border-spacing: 2px;
+  border-color: gray;
+  font-family: arial,sans-serif;
+  border-bottom: 1px #e5e5e5 solid;
+}
+
+.current .item {
+  background: rgba(206,220,206,.9);
+}
+
+.item {
+  cursor: pointer;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  
+}
+
+.item .source {
+  margin-left: 20px;
+}
+
+.item .title {
+  font-weight: bold;
+}
+
+.item .pubdate {
+  margin-right: 20px;
+}
+
+.item .pubdate {
+  text-align: right;  
+}
+
+.description {
+  display: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.description h1 {
+  margin-top: 0px;
+  font-size: 23px;
+}
+.nav {
+  height: 50px;
+  padding-top: 10px;
+  background-color: #fff;
+}
+
+.nav .contianer{
+  height: 50px;
+  padding-top: 20px;
+  position: center;
+  background-color: #fff;
+}
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  
+  
+  position: 
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.articles .container {
+  height:200px;
+  padding-left: 10px;
+}
+.jumbotron {
+  background-image:url(../images/qingshuiduanya.png);
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 10px;
+}
+
+.jumbotron .container {
+  
+  position: center;
+  top:50px;
+}
+
+.jumbotron h1 {
+  color: #714338;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.jumbotron a {
+  color: #0f0;
+  font-size: 18px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+
+.jumbotron .blog_nav {
+  height:30px;
+
+}
+
+.jumbotron .blog_nav .container{
+  height:25px;
+ 
+}
+
+.jumbotron .blog_nav .container ul{
+  padding-left:0px;
+ 
+}
+.jumbotron .blog_nav a {
+  color: #aa5a5a;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top:0px;
+  text-transform: uppercase;
+}
+
+.jumbotron .blog_nav li{
+  display: inline;
+
+}

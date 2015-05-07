@@ -21,12 +21,15 @@ def index():
 
 
 def first():
-    if request.vars.visitor_name:
-        session.visitor_name = request.vars.visitor_name
+    form = SQLFORM.factory(Field('visitor_name',label='what is your name?',requires=IS_NOT_EMPTY()))
+    if form.process().accepted:
+        session.visitor_name = form.vars.visitor_name
         redirect(URL('second'))
-    return dict()
+    return dict(form=form)
 
 def second():
+    if not request.function == 'first' and not session.visitor_name:
+        redirect(URL('first'))
     return dict()
     
 

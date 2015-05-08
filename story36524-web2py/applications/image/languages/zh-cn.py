@@ -241,6 +241,7 @@
 'User %(id)s Logged-in': '用户 %(id)s 已登录',
 'User %(id)s Registered': '用户 %(id)s 已注册',
 'User ID': '用户编号',
+'Value already in database or empty': 'Value already in database or empty',
 'Verify Password': '验证密码',
 'Videos': '视频',
 'View': '查看',
